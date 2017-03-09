@@ -7,3 +7,6 @@ with open("..//Example//file3.txt","w") as ff:
 with open("..//Example//file3.txt") as ff:
 	for line in ff:
 		print line
+
+
+		

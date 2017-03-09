@@ -3,7 +3,7 @@ import os.path
 import os
 
 
-def path():
+def path_demo():
     print os.path.abspath("D:\\hello\\test")
     print os.path.basename("D:\\hello\\..\\test\\test.txt")
     print os.path.curdir
@@ -72,4 +72,4 @@ def path():
     print os.path.walk('example', visit, '(User data)')
 if __name__ == '__main__':
     
-    path()
+    path_demo()
